@@ -73,7 +73,7 @@ npm run gen
 ## Installation
 1. Use file uploading 
 ```sh
-npm install fs-path --save
+npm install fs-path multer --save
 ```
 
 2. Use image resizing

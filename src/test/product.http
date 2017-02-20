@@ -1,0 +1,73 @@
+{
+	des: 'Add',
+	method: 'POST',
+	url: 'http://localhost:9000/product',
+	requestHeader: {
+		'content-type': 'application/json'
+	},
+	requestBody: {
+		name: '',
+		des: null,
+		category_id: ,
+		money: 0,
+		money0: 0,
+		special: 0,
+		status: 0,
+		position: 0,
+		quantity: 0,
+		quantity0: 0,
+		size: '',
+		sizes: [{
+			name: ''
+			quantity: 0
+			quantity0: 0
+		}],
+		images: []
+	}
+}
+
+{
+	des: 'Get list',
+	method: 'GET',
+	url: 'http://localhost:9000/product'
+}
+
+{
+	des: 'Update',
+	method: 'PUT',
+	url: 'http://localhost:9000/product/ITEM_ID',
+	requestHeader: {
+		'content-type': 'application/json'
+	},
+	requestBody: {
+		name: '',
+		des: null,
+		category_id: ,
+		money: 0,
+		money0: 0,
+		special: 0,
+		status: 0,
+		position: 0,
+		quantity: 0,
+		quantity0: 0,
+		size: '',
+		sizes: [{
+			name: ''
+			quantity: 0
+			quantity0: 0
+		}],
+		images: []
+	}
+}
+
+{
+	des: 'Get detail',
+	method: 'GET',
+	url: 'http://localhost:9000/product/ITEM_ID'
+}
+
+{
+	des: 'Delete',
+	method: 'DELETE',
+	url: 'http://localhost:9000/product/ITEM_ID'
+}
